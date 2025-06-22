@@ -5,47 +5,83 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>$DEBTGUY – The Brokest Hope</title>
   <link rel="icon" type="image/png" href="logo.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Arial', sans-serif;
-      background-color: #2b1d1c;
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #1e1514;
       color: #fddbb2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    header {
       text-align: center;
-      padding: 20px;
+      padding: 40px 0 20px;
     }
-    img.hero {
+
+    header img {
       width: 100%;
-      max-width: 600px;
-      border-radius: 10px;
-      margin-bottom: 20px;
+      max-width: 400px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
     }
-    h1 { color: #f9c57b; }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 2.8rem;
+      color: #ffb55a;
+    }
+
+    .cta-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin: 30px 0;
+    }
+
     .cta-buttons a {
-      margin: 10px;
-      display: inline-block;
-      background: #f38e5e;
+      background: #ff8e5e;
       color: #000;
-      padding: 12px 20px;
+      padding: 14px 28px;
       border-radius: 30px;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 700;
+      transition: all 0.2s ease;
     }
+
+    .cta-buttons a:hover {
+      background: #ffc89a;
+      transform: scale(1.05);
+    }
+
     .about {
-      margin-top: 40px;
-      padding: 20px;
+      max-width: 800px;
       background-color: #3b2a28;
-      border-radius: 10px;
+      border-radius: 16px;
+      padding: 30px;
+      margin-bottom: 50px;
+      text-align: center;
+      line-height: 1.6;
     }
+
     footer {
-      margin-top: 50px;
-      font-size: 12px;
-      color: #aaa;
+      font-size: 0.9rem;
+      color: #888;
+      margin-bottom: 40px;
     }
   </style>
 </head>
 <body>
-  <img src="debtguy-hero.jpg" alt="Hero Meme" style="max-width: 100%; margin-top: 30px;" />
-  <h1>$DEBTGUY</h1>
+  <header>
+    <img src="debtguy-hero.jpg" alt="Hero Meme">
+    <h1>$DEBTGUY</h1>
+  </header>
+
   <div class="cta-buttons">
     <a href="https://pump.fun" target="_blank">Buy Now</a>
     <a href="https://dexscreener.com" target="_blank">View Chart</a>
@@ -53,18 +89,18 @@
     <a href="https://x.com/YOUR_X" target="_blank">Follow on X</a>
   </div>
 
-  <div class="about">
+  <section class="about">
     <h2>About $DEBTGUY</h2>
     <p>
-      I’ve lost everything in crypto. My last dollar, my last coin — gone.  
-      But I didn’t give up. I turned my final $20 into something more...  
-      💸 $DEBTGUY isn’t just a meme — it’s my final stand.  
+      I’ve lost everything in crypto. My last dollar, my last coin — gone.<br>
+      But I didn’t give up. I turned my final $20 into something more...<br>
+      💸 $DEBTGUY isn’t just a meme — it’s my final stand.<br>
       A token born from failure, powered by faith, and driven by the community.
     </p>
-  </div>
+  </section>
 
   <footer>
-    &copy; 2025 DEBTGUY. All rights reserved.
+    © 2025 DEBTGUY. All rights reserved.
   </footer>
 </body>
 </html>
